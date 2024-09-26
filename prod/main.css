@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+}
+
+.block_main{
+    color: aliceblue;
+    background-color: black;
+    margin: 10px;
+    width: 270px;
+    border-radius: 10%;
+
+}
+
+.block_button{
+    display: flex;
+    justify-content:space-between;
+    width: 250px;
+}
+
+.select{
+    background-color: black;
+}
+
+
+.left,
+.right{
+    background-color: rgb(87, 87, 87);
+    color:aliceblue;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    padding: 5px 10px;
+    cursor:pointer;
+    border-radius: 10%;
+}
+
+
+.block_input{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
